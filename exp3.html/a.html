@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Semantic Elements Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+    }
+    header, footer {
+      background: #0aabdc;
+      color: white;
+      padding: 1rem;
+    }
+    nav {
+      background: #2a213e;
+      padding: 0.5rem;
+    }
+    nav a {
+      color: white;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 1rem;
+    }
+    article {
+      flex: 2;
+      padding: 1rem;
+      background: #f4f4f4;
+      margin-right: 1rem;
+    }
+    aside {
+      flex: 1;
+      padding: 1rem;
+      background: #0872ea;
+    }
+    figure {
+      margin: 1rem 0;
+    }
+    footer {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Website</h1>
+    <p><span>Welcome</span> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, consequuntur accusamus quibusdam laudantium laborum cumque nam error mollitia, dolorem voluptates enim magnam dignissimos consequatur animi harum delectus. Asperiores, eum nostrum.</p>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Articles</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <article>
+      <header>
+        <h2>Understanding Semantic Tags</h2>
+        <p>Posted on <span>August 4, 2025</span> by <span>Admin</span></p>
+      </header>
+
+      <section>
+        <h3>What Are Semantic Tags?</h3>
+        <p>Semantic tags clearly define the purpose of the HTML elements they enclose.</p>
+      </section>
+
+      <section>
+        <h3>Image Example</h3>
+        <figure>
+          <img src="WhatsApp Image 2025-04-27 at 14.34.55_816c0c0f.jpg" alt="my image from my galary">
+          <figcaption>This is an example of a figure with a caption.</figcaption>
+        </figure>
+      </section>
+
+      <footer>
+        <p>Welcome guys</p>
+      </footer>
+    </article>
+
+    <aside>
+      <h3>Related Links</h3>
+      <ul>
+        <li><a href="#">HTML Basics</a></li>
+        <li><a href="#">CSS Styling</a></li>
+        <li><a href="#">JavaScript Guide</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

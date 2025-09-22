@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Styles Example</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        p {
+            color: green;
+            font-size: 18px; 
+        }
+        .highlight {
+            background-color: yellow; 
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: blue; text-align: center;">
+        Inline Styled Heading
+    </h1>
+    <p>This paragraph uses <strong>internal</strong> styling from the &lt;style&gt; block.</p>
+    <p class="highlight">This paragraph has an internal style + class selector applied.</p>
+    <div class="external-demo">
+        This div is styled from an <strong>external</strong> CSS file.
+    </div>
+</body>
+</html>
