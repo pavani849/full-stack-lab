@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Simple Selector Forms Example</title>
+  <style>
+    p { 
+        color: green;
+     }
+    #main-heading {  
+        font-size: 2em; color: blue; 
+    }
+    .highlight { 
+        background: yellow; 
+        font-weight: bold; 
+    }
+    h2, .group { 
+        border-bottom: 2px solid orange; 
+    }
+    * { 
+        font-family: Arial, sans-serif; 
+    }
+  </style>
+</head>
+<body>
+  <h1 id="main-heading">Simple Selectors Demo</h1>
+  <h2>Welcome to FSD/h2>
+  <p>This is a paragraph styled with the element selector.</p>
+  <p class="highlight group">This paragraph uses the class and group selectors.</p>
+  <div class="group">This div demonstrates the group selector.</div>
+  <span>A span element to show universal font style.</span>
+</body>
+</html>

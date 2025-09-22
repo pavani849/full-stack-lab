@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Pseudo-class Selectors</title>
+  <style>
+    a:link { color: blue; }
+    a:visited { color: purple; }
+    a:hover { color: red; }
+    a:active { color: green; }
+    
+    li:first-child { font-weight: bold; }
+    li:last-child { font-style: italic; }
+    
+    input:focus { border: 2px solid orange; }
+    input:disabled { background-color: #ddd; }
+  </style>
+</head>
+<body>
+  <h1>Pseudo-class Selector Examples</h1>
+  <p>
+    <a href="https://example.com" target="_blank">Unvisited Link</a><br />
+    <a href="https://example.com/visited">Visited Link</a>
+  </p>
+  <ul>
+    <li>First list item</li>
+    <li>Middle list item</li>
+    <li>Last list item</li>
+  </ul>
+  
+  <form>
+    <input type="text" placeholder="Focus on me" /><br />
+    <input type="text" disabled placeholder="Disabled input" />
+  </form>
+</body>
+</html>

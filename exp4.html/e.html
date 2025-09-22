@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CSS Attribute Selectors Example</title>
+  <style>
+    /* Select elements with a placeholder attribute */
+    [placeholder] {
+      border: 2px solid blue;
+      padding: 5px;
+    }
+
+    /* Select inputs with type="text" */
+    input[type="text"] {
+      background-color: #e0f7fa;
+    }
+
+    /* Select links with href attribute starting with https */
+    a[href^="https"] {
+      color: green;
+      text-decoration: underline;
+    }
+
+    /* Select elements with class ending with 'box' */
+    [class$="box"] {
+      border: 2px solid orange;
+      padding: 10px;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" placeholder="Enter your name" />
+  <input type="password" placeholder="Enter your password" />
+  
+  <a href="https://example.com">Secure Link</a>
+  <a href="http://example.com">Insecure Link</a>
+
+  <div class="small-box">Small box</div>
+  <div class="large-box">Large box</div>
+  <div class="circle">Not a box</div>
+</body>
+</html>
